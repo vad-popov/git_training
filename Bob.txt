@@ -1,0 +1,34 @@
+!!!
+training repo:
+git_training
+
+list config status:
+git config --list
+
+Set your username: 
+git config --global user.name "vad-popov"
+
+Set your email address: 
+git config --global user.email "vad.popov@gmail.com"
+
+Change setting to be able to pload with dfferent credentials to GIT:
+git config --local credential.helper ""
+
+Something that might be useful but didn't yet work:
+git config --local credential.helper cache
+
+push changes from local to remote repo:
+git push
+username - github user name
+password - generated github access token with access to Repo (doens't work with passwords anymore)
+
+
+
+You can run the below commands to compare the changes for specific file:
+
+    git diff HEAD <file_name>
+    git diff <file_name>
+    git diff --staged <file_name> or  git diff --cached <file_name>,
+    git diff <branch_name1> <branch_name2> <file_name>
+    git diff <commit_hash> <commit_hash> <file_name>
+	
