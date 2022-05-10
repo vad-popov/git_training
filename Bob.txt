@@ -32,3 +32,5 @@ You can run the below commands to compare the changes for specific file:
     git diff <branch_name1> <branch_name2> <file_name>
     git diff <commit_hash> <commit_hash> <file_name>
 	
+
++1 line for merge test
