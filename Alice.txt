@@ -1,2 +1,6 @@
 Hi! I'm Alice. I'm a file someone added to this repository a while ago.
+<<<<<<< HEAD
 Test line
+=======
++1 lite for merge test
+>>>>>>> change-alice
